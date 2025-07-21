@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game {
+    padding: 50px 0;
+}
+
+.game__heading {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.game__group {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.game__title {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.game__img {
+    width: 800px;
+}
